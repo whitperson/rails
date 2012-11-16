@@ -1,0 +1,17 @@
+body {
+	background-color: grey;
+}
+
+.box {
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	padding-top: 25px;
+	margin: 10px;
+	border: 2px solid black;
+	color: black;
+	background-color: white;
+	text-align: center;
+
+}
