@@ -1,0 +1,58 @@
+HW INSTRUCTIONS
+
+create a program 
+
+Ask for a Movie?
+response 
+
+use HTTParty to get response from omdbapi
+
+sample pull 
+http://www.omdbapi.com/?t=True Grit&y=1969
+
+get()
+
+x = HTTParty.get('http://www.omdbapi.com/?t='MOVIENAME') -- use 
+(no spaces - if "true grit" true+grit)
+
+pass into variable
+
+y = JSON(x)
+
+y['Actors']
+
+y['Genre']
+
+
+Movie.create(:title => title, )	
+
+do .split to split out genres
+
+
+
+
+MOVIES:
+--title
+--year
+--rating
+--run-time
+
+many-to-many relationship
+w/ following: 
+
+ACTORS
+--name
+
+GENRE
+--name
+
+join tables 
+
+:actors_movies
+
+:genres_movies
+
+
+
+
+

@@ -1,0 +1,11 @@
+<h1>GET QUOTES and AVERAGE</h1>
+
+<%= form_tag do %> 
+	<%= label_tag 'Enter stock symbol' %>
+	<%= text_field_tag 'symbol' %>
+	
+	<%= label_tag 'Enter number of quotes to retrieve' %>
+	<%= number_field_tag 'times' %>
+	<%= submit_tag 'Get Stock Quotes' %>
+
+<% end %>

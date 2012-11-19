@@ -1,0 +1,7 @@
+
+<%= form_tag '/results' do %> 
+	<%= label_tag 'Enter stock symbols separated by a comma' %>
+	<%= text_area_tag 'stocks' %>
+	<%= submit_tag 'Get Stock Quotes' %>
+
+<% end %>

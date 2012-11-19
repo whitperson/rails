@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Moviez</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<header>MOVIEZ</header>
+
+<nav>
+	<%= link_to "HOME", "/"  %>
+	<%= link_to "ABOUT", about_path  %>
+	<%= link_to "FAQ", faq_path  %>
+	::
+	<%= link_to "MOVIEZ", movies_path %>
+	<%= link_to "NEW MOVIE", movies_new_path %>
+</nav>
+
+<%= yield %>
+
+<footer>(c) 2012 Moviez, LLC</footer>
+
+</body>
+</html>

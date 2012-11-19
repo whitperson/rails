@@ -1,0 +1,8 @@
+<h1>MovieNight</h1>
+
+<%= form_tag '/results' do %> 
+	<%= label_tag 'Enter titles of movies separated by a comma' %>
+	<%= text_area_tag 'titles' %>
+	<%= submit_tag 'Go' %>
+
+<% end %>

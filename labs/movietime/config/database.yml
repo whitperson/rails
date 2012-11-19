@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: movietime_development
+  pool: 5
+  host: localhost
+  username: postgres
+  password:

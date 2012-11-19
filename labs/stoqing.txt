@@ -1,0 +1,38 @@
+
+11. Lab
+stoqing
+(rails new stoqing)
+
+1. create a rails app called stoqing
+2. change sqlite3 gem to pg (go into gemfile)
+3. add annotate and pry-rails gems + yahoo finance gem
+
+4. create a stocks table containing: (rails g migration stock)
+  (id - integer -- will give us this automatically)
+  1--symbol - string
+  2--quote - decimal
+  3--timestamps
+
+5. create a users table containing:
+  (id - integer -- will give us this automatically)
+  1--name - string
+  2--password - string
+  3--timestamps
+
+6. create a stock and user model
+(stock.rb and user.rb, attr_accessible, annotate)
+
+7. annotate these models
+
+8. create a custom rake task that will populate the users table 
+(don't worry about this -- do a seed file instead)
+
+9. create an interactive program using pry that will:
+(MAIN with .run in it)
+  a: ask the user for 5 stock symbols
+  b: after the 5th symbol has been entered, every 1 second
+     get a quote for each 5 stocks and store that data in the database
+
+10. using either pgAdmin or rails db
+  a: monitor the data being added
+  b: query the data using sql

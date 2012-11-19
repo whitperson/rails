@@ -1,0 +1,19 @@
+@import "awesome";
+
+.cat 
+{
+  p 
+  {
+  @include awesome(3px, blue);
+  }
+
+  h1 
+  {
+  @include awesome(3px, orange);
+  }
+  h2 
+  {
+    @include awesome(4px, purple)
+  }
+
+}

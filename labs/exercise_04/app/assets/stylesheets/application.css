@@ -1,0 +1,36 @@
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	background-color: #555555;
+	padding: 50px;
+}
+
+.stock 
+{
+	float: left;
+	margin: 30px;
+	padding: 50px;
+	border: 2px solid black;
+	background-color: white;
+	font-color: black;
+	text-align: center;
+
+}
+
+textarea {
+	width: 200px;
+	height: 100px;
+}

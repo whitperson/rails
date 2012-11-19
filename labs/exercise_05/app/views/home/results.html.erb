@@ -1,0 +1,45 @@
+<h1>MovieNight Results</h1>
+
+<% 	@movies.each do |movie| %>
+	<div class="display_movies">
+		binding.pry
+					<p> <%= image_tag movie['Poster'] %> </p>
+					<p> TITLE: <%= movie['Title'] %> </p>
+					<p> YEAR: <%= movie['Year'] %> </p>
+					<p> RATING: <%= movie['Rated']		%> </p>
+					<p> RELEASE DATE: <%= movie['Released'] %></p>
+					<p> RUNTIME: <%= movie['Runtime'] %></p>
+					
+					<p>
+						<ul>
+							GENRE(S): 
+							<%= movie['Genre'].split(', ').each do |genre| %>
+							<li> <%= genre %></li>
+							<% end %>
+						</ul>
+					</p>
+
+					<p>
+						<ul>ACTORS: 
+							<%= movie['Actors'].split(', ').each do |actor|  %><p>
+							<li> <%= actor %></li>
+							<% end %>
+						</ul>
+					</p>
+					
+					<p>
+						<ul>
+							DIRECTOR(S): 
+							<%= movie['Director'].split(', ').each do |director| %> 
+							<li> <%= director %></li>	
+							<% end %>				
+						</ul>
+					</p>
+<% end %>
+
+<h1>
+Debuggin info
+</h1>
+<p>
+<%= debug @movies %>
+</p>

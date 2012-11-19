@@ -1,0 +1,10 @@
+
+<h1> <%= @stock %> </h1>
+
+<ul>	
+<%	@selected_stock.each do |stock_sym|%>
+			<li><%= number_to_currency(stock_sym) %> </li>
+	<%  end %>
+</ul>
+
+<p> AVERAGE: <%= number_to_currency(@average) %>
