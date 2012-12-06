@@ -4,49 +4,31 @@
 
  #blue {
   height: 50px;
-  width: 960px;
   background-color: blue;
-  border: solid 2px black;
-  margin: 2px;
  }
 
   #yellow {
   height: 500px;
-  width: 310px;
   background-color: yellow;
-  border: solid 2px black;
-  margin: 2px;
  }
 
   #green {
   height: 500px;
-  width: 635px;
   background-color: green;
-  border: solid 2px black;
-  margin: 2px;
  }
 
   #orange {
   height: 50px;
-  width: 310px;
   background-color: orange;
-  border: solid 2px black;
-  margin: 2px;
  }
 
   #black {
   height: 50px;
-  width: 310px;
   background-color: black;
-  border: solid 2px black;
-  margin: 2px;
  }
 
 
   #red {
   height: 50px;
-  width: 310px;
   background-color: red;
-  border: solid 2px black;
-  margin: 2px;
  }

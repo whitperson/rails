@@ -1,0 +1,13 @@
+<div class="field">
+<%= form_tag '/places/search', :id => 'searchform', :remote => true do %>
+</div>
+
+<div class="field">
+<%= text_field_tag 'query' %>
+</div>
+
+<div class="actions">
+    <%= submit_tag 'go' %>
+</div>
+
+<% end %>

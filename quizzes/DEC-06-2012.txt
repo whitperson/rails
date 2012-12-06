@@ -1,0 +1,53 @@
+-----
+QUIZ
+-----
+______________________________________
+1)  AVG of numbers between 250 & 725
+
+
+
+
+______________________________________
+2)
+What is a Stack Frame
+
+a stack frame is a queue of items stored in memory.
+they get stored in a  "Last in, First off" format (LIFO as opposed to FIFO)
+
+you push and pop items on and off the stack
+
+
+______________________________________
+3) Difference between a set and a list:
+
+a set is just a grouping of unique values
+
+a list is set of values linked by pointers (don't have to be unique)
+
+______________________________________
+4)
+Big O notation....
+
+O^n
+
+HASH -- constant time
+TREE -- logarithmic time  -- log(n)
+ARRAY - linear time
+BUBBLE SORT -- 0^2
+
+
+______________________________________
+5)
+Big O of bubble sort....
+
+0^2 or O squared
+(increases exponentially versus tree )
+
+______________________________________
+6)
+How to construct a double-linked list
+
+A double-linked list gets created similarly to a single-slinked list, with a pointer (-->) and a data point (i.e. node.data). However, a single-linked list simple points to the next node in a linear manner, but a double-linked list differs in that it will point to both the next node AS WELL AS the previous node. Here's a more visual representation:
+
+node.prev < -- main node (node you're in) --> node.next
+
