@@ -26,8 +26,18 @@ Objects
 
 
 _______
-4) Creating na object in JS
+4) Creating an object in JS
 
+you simply set that object as equal to a thing. if it's a person object, it might look like this:
+
+person=new Object();
+person.firstname="Marc";
+person.lastname="Whitman";
+
+then you can call functions on that object and its properties:
+
+person.lastname;
+person.lastname.length;
 
 
 _________
@@ -122,9 +132,9 @@ Set
 
 __________
 13) Pianos in Chicago
-pop. of Chicago is 2.7 million
+(based on pop. of Chicago of 2.7 million)
 
-
+150,000
 
 _______
 14) Manhole covers are round because....
