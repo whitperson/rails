@@ -1,0 +1,133 @@
+
+QUIZ - Dec 7th
+________
+1) HTML
+
+hyper text markup language
+
+
+_______
+2) SASS for CSS
+
+Syntactically Awesome Stylesheets
+(basically allows you to nest styles within styles and better follow DRY principles)
+
+vs.
+
+Cascading Style sheets
+
+_______
+3)  Types in JS
+
+Types are objects/items/groupings that you can manipulate/work with in JS:
+Strings
+Arrays
+Objects
+
+
+_______
+4) Creating na object in JS
+
+
+
+_________
+5) JSON
+
+JSON is Javascript Object Notation
+basically is the notational data format that allows your Javascript to talk to web services or APIs (to get and sometimes set data to/from service)
+
+
+_______
+6) DOM Ready in Javascript
+
+This means the full Document Object Model (of html, css, js files) has loaded.
+
+It is then "ready" for actions to happen (clicks, hovers, etc...) to trigger the javascript functions that are set aside for AFTER the full DOM has loaded
+
+_______
+7) Global vs, JS, set a global
+
+GLOBAL:
+
+var global = x
+
+$(function(){
+
+  $('button').click(function_to_use_global_var_below);
+
+})
+
+LOCAL -- is done within functions (either before or after DOM load, below is set for before DOM loads)
+
+
+$(function(){
+
+  $('button').click(function_to_use_local_var_below);
+
+})
+
+  function function_to_use_local_var_below()
+{
+  var local = x
+}
+
+
+________
+8)
+Classes --
+
+Are categories/classifications of things with specific attributes, methods, functions
+
+If you're building an online storefront for music, you'd make a class for things like: Artists, Songs, Albums, etc...
+
+Objects --
+
+Almost everything in Ruby is an object. It's an item (a set of data, an array, etc...), with which you can run functions, methods, etc...
+
+In above example, a single "song" would be an object you could work with (same as an album, an artist, etc....)
+
+________
+9  Inheritance
+
+Allows a child class to inherit attributes, methods, functions of a parent class. Like so:
+
+class SessionController < ApplicationController
+end
+
+here, the SessionController gets all attributes, methods, functions of its parent class ApplicationController
+
+_________
+10
+
+Diff between Hash and Array
+
+--Array is a list of items
+to pull an item you have to go through each item in linear fashion by index number
+
+--Hash is a list of items, with a key and a value
+the key allows you to instantly look up the value
+
+________
+11) Why choose array vs. hash
+
+You'd choose Array when you don't care about quickly looking up the values within it. Just a list of things
+
+Hash is better when you need to get at the values quickly/instantly
+
+_________
+12) Datastructures
+
+List
+Set
+
+__________
+13) Pianos in Chicago
+pop. of Chicago is 2.7 million
+
+
+
+_______
+14) Manhole covers are round because....
+
+
+
